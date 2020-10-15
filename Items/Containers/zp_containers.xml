@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="12-Gauge Shell Box" identifier="zp_ammobox_shotgun" category="Equipment" aliases="shotgun ammo box,shotgun shells" tags="smallitem,zp_ammobox_shotgun,ammobox" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <InventoryIcon texture="zp_containers.png" sourcerect="0,0,56,34" origin="0.5,0.5" />
+    <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
+    <Body width="56" height="33" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="12" slotsperrow="4" canbeselected="false" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+      <Containable identifiers="shell,shotgunammo" />
+    </ItemContainer>
+    <LightComponent characterusable="false" LightColor="0,0,0,0" range="50" IsOn="true">
+      <StatusEffect type="OnActive" target="This" targetitemcomponent="LightComponent" IsOn="false" delay="0.3" />
+    </LightComponent>
+  </Item>
+  <Item name="Revolver Ammo Box" identifier="zp_ammobox_revolver" category="Equipment" aliases="revolver ammo box" tags="smallitem,zp_ammobox_revolver,ammobox" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <InventoryIcon texture="zp_containers.png" sourcerect="0,36,56,34" origin="0.5,0.5" />
+    <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
+    <Body width="56" height="33" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="24" slotsperrow="4" canbeselected="false" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+      <Containable identifiers="revolverammo" />
+    </ItemContainer>
+    <LightComponent characterusable="false" LightColor="0,0,0,0" range="50" IsOn="true">
+      <StatusEffect type="OnActive" target="This" targetitemcomponent="LightComponent" IsOn="false" delay="0.3" />
+    </LightComponent>
+  </Item>
+  <Item name="Harpoonstack" identifier="zp_ammobox_harpoons" category="Equipment" aliases="harpoon stack,harpoons,harpoon box" tags="mediumitem,zp_ammobox_harpoons,ammobox" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="200" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="10" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="2" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon texture="zp_containers.png" sourcerect="59,0,58,52" origin="0.5,0.5" />
+    <Sprite texture="zp_containers_sprite.png" depth="0.54" sourcerect="0,0,177,13" origin="0.5,0.5" />
+    <Body width="176" height="13" density="20" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="12" slotsperrow="4" canbeselected="false" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,121,30" />
+      <Containable identifiers="harpoonammo" />
+    </ItemContainer>
+    <LightComponent characterusable="false" LightColor="0,0,0,0" range="50" IsOn="true">
+      <StatusEffect type="OnActive" target="This" targetitemcomponent="LightComponent" IsOn="false" delay="0.3" />
+    </LightComponent>
+  </Item>
+</Items>
