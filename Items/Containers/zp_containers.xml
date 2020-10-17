@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="12-Gauge Shell Box" identifier="zp_ammobox_shotgun" category="Equipment" aliases="shotgun ammo box,shotgun shells" tags="smallitem,zp_ammobox_shotgun,ammobox" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="Shotgun Ammo Box" identifier="zp_ammobox_shotgun" category="Equipment" aliases="shotgun ammo box,shotgun shells" tags="smallitem,zp_ammobox_shotgun,ammobox" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -9,7 +9,7 @@
       <Price locationtype="mine" multiplier="1.25" sold="false" />
     </Price>
     <Deconstruct time="10">
-      <Item identifier="carbon" />
+      <Item identifier="plastic" />
     </Deconstruct>
     <InventoryIcon texture="zp_containers.png" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
@@ -32,7 +32,7 @@
       <Price locationtype="mine" multiplier="1.25" sold="false" />
     </Price>
     <Deconstruct time="10">
-      <Item identifier="carbon" />
+      <Item identifier="plastic" />
     </Deconstruct>
     <InventoryIcon texture="zp_containers.png" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
