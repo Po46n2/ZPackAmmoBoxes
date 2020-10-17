@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="ZPack" path="Mods/ZPack/filelist.xml" corepackage="false" gameversion="0.10.5.1">
-  <Item file="Mods/ZPack/Items/Containers/zp_containers.xml" />
+<contentpackage name="ZPack" path="Mods/ZPackAmmoBoxes/filelist.xml" corepackage="false" gameversion="0.10.5.1">
+  <Item file="Mods/ZPackAmmoBoxes/Items/Containers/zp_containers.xml" />
 </contentpackage>
