@@ -18,8 +18,8 @@
     <InventoryIcon texture="zp_containers.png" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" keepopenwhenequipped="true" movableframe="true" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="12" >
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true" >
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
       <Containable identifiers="shell,shotgunammo" />
     </ItemContainer>
@@ -43,8 +43,8 @@
     <InventoryIcon texture="zp_containers.png" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" keepopenwhenequipped="true" movableframe="true" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="24" >
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="24" keepopenwhenequipped="true" movableframe="true" >
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
       <Containable identifiers="revolverammo" />
     </ItemContainer>
@@ -68,8 +68,8 @@
     <InventoryIcon texture="zp_containers.png" sourcerect="59,0,58,52" origin="0.5,0.5" />
     <Sprite texture="zp_containers_sprite.png" depth="0.54" sourcerect="0,0,177,13" origin="0.5,0.5" />
     <Body width="176" height="13" density="20" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-4" keepopenwhenequipped="true" movableframe="true" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="12" >
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-4" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true" >
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,121,30" />
       <Containable identifiers="harpoonammo" />
     </ItemContainer>
