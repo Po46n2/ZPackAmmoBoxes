@@ -8,9 +8,13 @@
       <Price locationtype="military" multiplier="1" minavailable="4" />
       <Price locationtype="mine" multiplier="1.25" sold="false" />
     </Price>
-    <Deconstruct time="10">
+    <Deconstruct time="5">
       <Item identifier="plastic" />
     </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <Item identifier="plastic" />
+    </Fabricate>
     <InventoryIcon texture="zp_containers.png" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
@@ -31,9 +35,13 @@
       <Price locationtype="military" multiplier="1" minavailable="4" />
       <Price locationtype="mine" multiplier="1.25" sold="false" />
     </Price>
-    <Deconstruct time="10">
+    <Deconstruct time="5">
       <Item identifier="plastic" />
     </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <Item identifier="plastic" />
+    </Fabricate>
     <InventoryIcon texture="zp_containers.png" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
@@ -46,17 +54,21 @@
       <StatusEffect type="OnActive" target="This" targetitemcomponent="LightComponent" IsOn="false" delay="0.3" />
     </LightComponent>
   </Item>
-  <Item name="Harpoonstack" identifier="zp_ammobox_harpoons" category="Equipment" aliases="harpoon stack,harpoons,harpoon box" tags="mediumitem,zp_ammobox_harpoons,ammobox" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="200" impactsoundtag="impact_metal_light" HideConditionBar="true">
-    <Price baseprice="10" soldeverywhere="false">
+  <Item name="Harpoonstack" identifier="zp_ammobox_harpoon" category="Equipment" aliases="harpoon stack,harpoons,harpoon box" tags="mediumitem,zp_ammobox_harpoons,ammobox" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="200" impactsoundtag="impact_metal_light" HideConditionBar="true">
+    <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
       <Price locationtype="research" multiplier="1.25" sold="false" />
       <Price locationtype="military" multiplier="1" minavailable="4" />
       <Price locationtype="mine" multiplier="1.25" sold="false" />
     </Price>
-    <Deconstruct time="10">
+    <Deconstruct time="3">
       <Item identifier="rubber" />
     </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <Item identifier="rubber" />
+    </Fabricate>
     <InventoryIcon texture="zp_containers.png" sourcerect="59,0,58,52" origin="0.5,0.5" />
     <Sprite texture="zp_containers_sprite.png" depth="0.54" sourcerect="0,0,177,13" origin="0.5,0.5" />
     <Body width="176" height="13" density="20" />
