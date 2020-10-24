@@ -23,7 +23,6 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
       <Containable identifiers="shell,shotgunammo" />
     </ItemContainer>
-    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
   <Item name="Revolver Ammo Box" identifier="zp_ammobox_revolver" category="Equipment" aliases="revolver ammo box" tags="smallitem,zp_ammobox_revolver,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
@@ -48,7 +47,6 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
       <Containable identifiers="revolverammo" />
     </ItemContainer>
-    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
   <Item name="Harpoonstack" identifier="zp_ammobox_harpoon" category="Equipment" aliases="harpoon stack,harpoons,harpoon box" tags="mediumitem,zp_ammobox_harpoons,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
@@ -73,7 +71,6 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,121,30" />
       <Containable identifiers="harpoonammo" />
     </ItemContainer>
-    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
   <Item name="Grenade Ammo Box" identifier="zp_ammobox_grenade" category="Equipment" aliases="grenade ammo box" tags="smallitem,zp_ammobox_grenade,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
@@ -98,6 +95,5 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
       <Containable identifiers="grenade" />
     </ItemContainer>
-    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
 </Items>
