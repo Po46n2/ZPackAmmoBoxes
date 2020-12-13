@@ -5,7 +5,10 @@ Added Items:
 Revolver Ammo Box (Container holding a maximum of 24 revolver rounds)
 Shotgun Ammo Box (Container holding a maximum of 12 shotgun shells)
 Grenade Launcher Ammo Box (Container holding a maximum of 4 grenades)
-Harpoonstack (Container holding a maximum of 12 harpoons)
+Harpoon Stack (Container holding a maximum of 12 harpoons)
+Battery Box (Container holding a maximum of 4 batteries)
+Stungun Ammo Box (Container holding a maximum of 6 stungun darts)
+SMG Magazine Stack (Container holding a maximum of 2 SMG magazines)
 
 The ammo boxes are small items that can be stored anywhere except the harpoonstack.
 To make it a bit more realistic the harpoonstack is medium so it won't fit in a toolbox and some other small containers.
