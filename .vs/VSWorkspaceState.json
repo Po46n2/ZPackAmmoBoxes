@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Items",
+    "\\Items\\Containers"
   ],
+  "SelectedNode": "\\WorkshopScreen.png",
   "PreviewInSolutionExplorer": false
 }

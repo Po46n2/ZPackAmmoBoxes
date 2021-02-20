@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="Shotgun Ammo Box" identifier="zp_ammobox_shotgun" category="Equipment" aliases="shotgun ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+  <Item name="Shotgun Ammo Box Big" identifier="zp_ammobox_shotgun" category="Equipment" aliases="shotgun ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -23,7 +23,7 @@
       <Containable identifiers="shell,shotgunammo" />
     </ItemContainer>
   </Item>
-  <Item name="Revolver Ammo Box" identifier="zp_ammobox_revolver" category="Equipment" aliases="revolver ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+  <Item name="Revolver Ammo Box Big" identifier="zp_ammobox_revolver" category="Equipment" aliases="revolver ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -46,7 +46,7 @@
       <Containable identifiers="revolverammo" />
     </ItemContainer>
   </Item>
-  <Item name="Harpoon Stack" identifier="zp_ammobox_harpoon" category="Equipment" aliases="harpoon stack,harpoon ammo box" tags="mediumitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="Harpoon Stack Big" identifier="zp_ammobox_harpoon" category="Equipment" aliases="harpoon stack,harpoon ammo box" tags="mediumitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -69,7 +69,7 @@
       <Containable identifiers="harpoonammo" />
     </ItemContainer>
   </Item>
-  <Item name="Grenade Ammo Box" identifier="zp_ammobox_grenade" category="Equipment" aliases="grenade ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+  <Item name="Grenade Ammo Box Big" identifier="zp_ammobox_grenade" category="Equipment" aliases="grenade ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -92,7 +92,7 @@
       <Containable identifiers="grenade" />
     </ItemContainer>
   </Item>
-  <Item name="Battery Box" identifier="zp_ammobox_battery" category="Equipment" aliases="battery ammo box, battery box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+  <Item name="Battery Box Big" identifier="zp_ammobox_battery" category="Equipment" aliases="battery ammo box, battery box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -115,7 +115,7 @@
       <Containable identifiers="mobilebattery" />
     </ItemContainer>
   </Item>
-  <Item name="Stungun Ammo Box" identifier="zp_ammobox_stungun" category="Equipment" aliases="stungun ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
+  <Item name="Stungun Ammo Box Big" identifier="zp_ammobox_stungun" category="Equipment" aliases="stungun ammo box" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_soft" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
@@ -138,7 +138,7 @@
       <Containable identifiers="stungunammo" />
     </ItemContainer>
   </Item>
-  <Item name="SMG Magazine Stack" identifier="zp_ammobox_smg" category="Equipment" aliases="smg ammo box, smg magazine stack" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
+  <Item name="SMG Magazine Stack Big" identifier="zp_ammobox_smg" category="Equipment" aliases="smg ammo box, smg magazine stack" tags="smallitem,ammobox,mobilecontainer" cargocontaineridentifier="metalcrate" scale="0.4" pickdistance="150" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <Price baseprice="20" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" minavailable="2" />
