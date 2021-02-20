@@ -1,4 +1,4 @@
-# ZPack
+# ZPack Ammo Boxes
 Mod for the game Barotrauma
 
 The mod was created before item stacking was added to the game so now it is too overpowered.
