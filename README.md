@@ -4,7 +4,7 @@ Mod for the game Barotrauma
 The mod was created before item stacking was added to the game so now it is too overpowered.
 Stacking should have made this mod obsolete, but the devs didn't balance anything, so 8 revolver bullets take the same amount of space as 8 grenades...
 
-I don't want to lower the container capacity of the ammo boxes in this mod as at update you could lose items in them so I'm creating another Mod called ZPack2 with rebalanced capacity.
+I don't want to lower the container capacity of the ammo boxes in this mod as at update you could lose items in them so I'm creating another Mod called ZPackAmmoBoxes2 with rebalanced capacity Ammo Boxes. Buy those items and destroy these.
 (The best would be to rebalance the stacking capacity, but doing that in a mod would override the vanila items and that could cause problems later when they change something.)
 
 Added Items:
