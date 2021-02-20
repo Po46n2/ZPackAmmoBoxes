@@ -19,8 +19,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,0,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true"  containedstateindicatorstyle="bullet">
       <Containable identifiers="shell,shotgunammo" />
     </ItemContainer>
   </Item>
@@ -43,8 +42,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,36,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="24" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+    <ItemContainer autofill="False" capacity="24" keepopenwhenequipped="true" movableframe="true"  containedstateindicatorstyle="bullet">
       <Containable identifiers="revolverammo" />
     </ItemContainer>
   </Item>
@@ -67,8 +65,7 @@
     <Sprite texture="zp_containers_sprite.png" depth="0.54" sourcerect="0,0,177,14" origin="0.5,0.5" />
     <Body width="176" height="14" density="20" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-4" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,121,30" />
+    <ItemContainer autofill="False" capacity="12" keepopenwhenequipped="true" movableframe="true"  containedstateindicatorstyle="spear">
       <Containable identifiers="harpoonammo" />
     </ItemContainer>
   </Item>
@@ -91,8 +88,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="0,72,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="4" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+    <ItemContainer autofill="False" capacity="4" keepopenwhenequipped="true" movableframe="true" containedstateindicatorstyle="bullet">
       <Containable identifiers="grenade" />
     </ItemContainer>
   </Item>
@@ -115,8 +111,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="58,0,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="4" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="1,70,107,31" />
+    <ItemContainer autofill="False" capacity="4" keepopenwhenequipped="true" movableframe="true" containedstateindicatorstyle="battery">
       <Containable identifiers="mobilebattery" />
     </ItemContainer>
   </Item>
@@ -139,8 +134,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="58,36,56,34" origin="0.5,0.5" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="6" keepopenwhenequipped="true" movableframe="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+    <ItemContainer autofill="False" capacity="6" keepopenwhenequipped="true" movableframe="true" containedstateindicatorstyle="bullet">
       <Containable identifiers="stungunammo" />
     </ItemContainer>
   </Item>
@@ -163,8 +157,7 @@
     <Sprite texture="zp_containers.png" depth="0.54" sourcerect="188,4,55,64" origin="0.500425,0.49753398" />
     <Body width="56" height="33" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="15,-70" handle1="0,-20" aimable="false" msg="ItemMsgPickUpSelect" />
-    <ItemContainer autofill="False" capacity="2" keepopenwhenequipped="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="2,121,53,22" />
+    <ItemContainer autofill="False" capacity="2" keepopenwhenequipped="true" containedstateindicatorstyle="bullet">
       <Containable identifiers="smgammo" />
     </ItemContainer>
   </Item>
